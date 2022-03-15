@@ -46,8 +46,9 @@ nav a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;/* Resize the background image to cover the entire container */;
-    padding-top: 30px;
+    padding: 30px 10px 10px 0;
     height: 100vh;
+
 }
 .pagina3{
     background-color: #c71376;
@@ -87,6 +88,7 @@ p{
 .pag-um{
     display: flex;
     justify-content: space-between;
+    paddin: 10px;
 }
 article{
     background-color: rgba(168, 10, 168, 0.984);
@@ -105,8 +107,7 @@ section{
     background-color:black;
     width: 30%;
     height: 370px;
-    Margin:0 15px;
-    padding:10px;
+    padding:15px;
 }
 section p, section h2{
     color: white;
@@ -126,7 +127,8 @@ section img{
 }
 .grid{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 table{
     border-collapse: collapse;
@@ -197,12 +199,13 @@ footer{
     .pag-um{
         display: flex;
         flex-direction:column;
-        justify-content: center;
-        align-items: center;
     }
     .pag-um article{
         width: 70%;
         height: 600px;
+    }
+    .pag-um img{
+       margin-left: 20%;
     }
     .pagina2{
         background-image: none;
@@ -232,8 +235,18 @@ footer{
     }
 
     .grid{
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-dois{
+        height: 450px;
+    }
+    .conteudo-tres{
+        height: 500px;
     }
 
 }
+@media(max-width: 376px){
+   
 
+}
