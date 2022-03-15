@@ -200,6 +200,10 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .pag-um article{
+        width: 70%;
+        height: 600px;
+    }
     .pagina2{
         background-image: none;
         background-color: #c71376;
