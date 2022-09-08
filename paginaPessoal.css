@@ -230,6 +230,7 @@ input:focus {
 	background-color: #ab54a7;
 	cursor: pointer;
 	margin-left: 20px;
+	position: relative;
 }
 
 .site:hover{
@@ -245,6 +246,11 @@ input:focus {
 .site h1{
 	font-size: 20px;
 	margin:5px;
+}
+
+.site img{
+	width: 320px;
+	height: 180px;
 }
 
 footer {
