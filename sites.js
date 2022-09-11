@@ -4,7 +4,6 @@ const data = [
 	{site: 'https://gleimoura.github.io/projeto4-parrotscardgame/', text: 'Um jogo da memória temático com aleatoridade, efeitos e transição, responsividade e papagaios dançantes para trabalhar JS', title: 'Parrots Card Game'},
 	{site: 'https://gleimoura.github.io/projeto6-buzzquiz/', text: 'Projeto trabalhado em dupla para desenvolver um site de quizzes que utiliza uma API pública para os estudantes da Driven.', title: 'BuzzQuizz'},
 	{site: 'https://projeto9-cineflex-self-kappa.vercel.app/', text: 'Single-Page Application (SPA) para um cinema, usando React Router!', title: 'CineFlex'},
-	{site: 'https://gleimoura.github.io/projeto5-batepapo-uol/', text: 'Site inspirado no saudoso Bate Papo Uol para trabalhar conceitos de JavaScript', title: 'Pate Papo Uol'},
 	{site: 'https://projeto8-zaprecall-six-xi.vercel.app/', text: 'Flashcards são cartões de contém uma pergunta/afirmação na sua frente e uma resposta atrás. O projeto utilizou React para desenvolver o front-end.', title: 'Zap Recall'},
 	{site: 'https://projeto10-trackit-psi-pink.vercel.app/', text: 'Aplicação completa de acompanhamento de hábitos! Com direito a cadastro, login e muitas bibliotecas! Utiliza React com ContextAPI para armazenar dados de usuário.', title: 'Track It'}, 
 	{site: 'https://gleimoura.github.io/projeto11-tweteroo-front/', text: 'Projeto para construir uma API Rest simpres com deploy no Render.', title: 'Tweteroo front-end', backLink:'https://github.com/gleiMoura/projeto11-tweteroo', backText:'Tweteroo Back-end'}, 
