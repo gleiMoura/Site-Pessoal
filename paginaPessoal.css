@@ -338,3 +338,8 @@ footer {
 		grid-template-columns: none;
 	}
 }
+
+.link{
+	color: red;
+	text-decoration: none;
+}

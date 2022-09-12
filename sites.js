@@ -9,8 +9,8 @@ const data = [
 	{site: 'https://gleimoura.github.io/projeto11-tweteroo-front/', text: 'Projeto para construir uma API Rest simpres com deploy no Render.', title: 'Tweteroo front-end', backLink:'https://github.com/gleiMoura/projeto11-tweteroo', backText:'Tweteroo Back-end'}, 
 	{site: 'https://projeto13-mywallet-front-six-sigma.vercel.app/', text: 'Aplicação FULLSTACK de um organizador financeiro que utiliza REACT no front, API Rest com Express no back e MONGODB no banco de dados!', title: 'My Wallet', backLink:'https://github.com/gleiMoura/projeto13-mywallet-back', backText:'Mywallet Back-end'},
 	{site: 'https://projeto14-sapatin-front.vercel.app/', text: 'Projeto de um ecommerce de calçados que utiliza REACT no front, API Rest com Express no back e MONGODB no banco de dados!', title: 'Sapatin', backLink:'https://github.com/gleiMoura/projeto14-sapatin-back', backText:'Sapatin Back-end'}, 
-	{site: 'https://github.com/gleiMoura/projeto18-valex', text: 'Projeto com TypeScript que cria uma API de cartões de benefícios. A API é responsável pela criação, recarga, ativação, assim como o processamento de compras. A API PostgreSQL no banco de dados.', title: 'Valex'},
-	{site: 'https://github.com/gleiMoura/Drivenpass', text: 'Neste projeto desenvolvi um gerenciador de senha que utiliza Arquitetura em Camadas (controllers, middlewares, repositories, router, services), assim como a ORM Prisma. Possui documentação no Readme.', title: 'DrivenPass'},
+	{backLink: 'https://github.com/gleiMoura/projeto18-valex', text: 'Projeto com TypeScript que cria uma API de cartões de benefícios. A API é responsável pela criação, recarga, ativação, assim como o processamento de compras. Usa PostgreSQL no banco de dados.', backText: 'Valex'},
+	{backLink: 'https://github.com/gleiMoura/Drivenpass', text: 'Neste projeto desenvolvi um gerenciador de senha que utiliza Arquitetura em Camadas (controllers, middlewares, repositories, router, services), assim como a ORM Prisma.', backText: 'DrivenPass'},
 
 ];
 
@@ -32,6 +32,15 @@ function putSitesOnScreen() {
   				<source src='images/videos/video${i}.mp4' type="video/mp4">
 					Your browser does not support the video tag.
 				</video>
+				<div class="text">
+					<p>${data[i].text}</p>
+				</div>
+			</a>`
+		}else if(data[i].site === undefined){
+			sites.innerHTML = sites.innerHTML + 
+			`<a href=${data[i].backLink} class="site">
+				<h1>${data[i].backText}</h1>
+				<img src='images/siteImage${i}.png' alt=${data[i].backText}/>
 				<div class="text">
 					<p>${data[i].text}</p>
 				</div>
