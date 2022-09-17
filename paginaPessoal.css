@@ -94,7 +94,7 @@ h3 a {
 }
 
 p {
-	font-size: 1, 6rem;
+	font-size: 1,6rem;
 }
 
 .pagina1 img {
@@ -106,7 +106,7 @@ p {
 .pag-um {
 	display: flex;
 	justify-content: space-between;
-	paddin: 10px;
+	padding: 10px;
 }
 
 article {
@@ -240,7 +240,7 @@ input:focus {
 .site p{
 	padding: 10px;
 	color: white;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .site h1{
