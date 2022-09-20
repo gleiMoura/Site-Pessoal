@@ -15,11 +15,11 @@ const data = [
 ];
 
 function putSitesOnScreen() {
-	const sites = document.querySelector(".allSites");
+	const sites = document.querySelector(".portfolio__sites");
 	for (let i = 0; i < data.length; i++) {
 		if(data[i].backLink === undefined) {
 			sites.innerHTML = sites.innerHTML + `
-			<a href=${data[i].site} class="site">
+			<a href=${data[i].site} class="portfolio__site">
 				<h1>${data[i].title}</h1>
 				<video
 					width="320" 
@@ -38,7 +38,7 @@ function putSitesOnScreen() {
 			</a>`
 		}else if(data[i].site === undefined){
 			sites.innerHTML = sites.innerHTML + 
-			`<a href=${data[i].backLink} class="site">
+			`<a href=${data[i].backLink} class="portfolio__site">
 				<h1>${data[i].backText}</h1>
 				<img src='images/siteImage${i}.png' alt=${data[i].backText}/>
 				<div class="text">
@@ -47,7 +47,7 @@ function putSitesOnScreen() {
 			</a>`
 		}else{
 			sites.innerHTML = sites.innerHTML + `
-			<a href=${data[i].site} class="site">
+			<a href=${data[i].site} class="portfolio__site">
 				<h1>${data[i].title}</h1>
 				<video
 					width="320" 
@@ -64,7 +64,7 @@ function putSitesOnScreen() {
 					<p>${data[i].text}</p>
 				</div>
 			</a>
-			<a href=${data[i].backLink} class="site">
+			<a href=${data[i].backLink} class="portfolio__site">
 				<h1>${data[i].backText}</h1>
 				<img src='images/siteImage${i}.png' alt=${data[i].backText}/>
 				<div class="text">

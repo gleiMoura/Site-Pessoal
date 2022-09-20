@@ -43,13 +43,13 @@ nav a {
 	font-size: 1.5em;
 }
 
-.pagina1 {
+.apresentacao {
 	background-color: #c71376;
 	padding-top: 30px;
 	padding-bottom: 100px;
 }
 
-.pagina2 {
+.caminho {
 	background-image: url(images/purpleGalaxy.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,7 +61,7 @@ nav a {
 
 }
 
-.pagina3 {
+.portfolio {
 	background-color: #c71376;
 	padding-top: 30px;
 	display: flex;
@@ -70,7 +70,7 @@ nav a {
 	padding: 50px 50px 80px 50px;
 }
 
-.pagina3 a {
+.portfolio a {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
@@ -78,7 +78,7 @@ nav a {
 	text-align: center;
 }
 
-.pagina3 a:hover {
+.portfolio a:hover {
 	color: black;
 }
 
@@ -97,13 +97,13 @@ p {
 	font-size: 1,6rem;
 }
 
-.pagina1 img {
+.apresentacao img {
 	width: 75%;
 	margin: 40px 20px 0px 100px;
 	border-radius: 60%;
 }
 
-.pag-um {
+.apresentacao__secao {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
@@ -123,25 +123,25 @@ article {
 	text-align: justify;
 }
 
-section {
+.caminho__conteudo {
 	background-color: black;
 	width: 30%;
 	height: 370px;
 	padding: 15px;
 }
 
-section p,
-section h2 {
+.caminho__conteudo p,
+.caminho__conteudo h2 {
 	color: white;
 	text-align: center;
 }
 
-.tamanho {
+.caminho__texto {
 	width: 100%;
 	height: 85%;
 }
 
-section img {
+.caminho__conteudo img {
 	border-radius: 50%;
 	width: 30%;
 	display: block;
@@ -151,7 +151,7 @@ section img {
 	border: 2px solid rgba(168, 10, 168, 0.984);
 }
 
-.grid {
+.caminho__grid {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -214,12 +214,12 @@ input:focus {
 	width: 50%;
 }
 
-.allSites{
+.portfolio__sites{
 	display: grid;
 	grid-template-columns: 500px 500px;
 }
 
-.site {
+.portfolio__site {
 	display: flex;
 	flex-direction: column;
 	width: 400px;
@@ -233,22 +233,22 @@ input:focus {
 	position: relative;
 }
 
-.site:hover{
+.portfolio__site:hover{
 	background-color: black;
 }
 
-.site p{
+.portfolio__site p{
 	padding: 10px;
 	color: white;
 	font-size: 15px;
 }
 
-.site h1{
+.portfolio__site h1{
 	font-size: 20px;
 	margin:5px;
 }
 
-.site img{
+.portfolio__site img{
 	width: 320px;
 	height: 180px;
 }
@@ -270,38 +270,38 @@ footer {
 }
 
 @media(max-width:890px) {
-	.pagina1 {
+	.apresentacao {
 		height: inherit;
 	}
 
-	.pag-um {
+	.apresentacao__secao {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.pag-um article {
+	.apresentacao__secao article {
 		width: 70%;
 		height: 600px;
 	}
 
-	.pag-um img {
+	.apresentacao__secao img {
 		margin-left: 20%;
 	}
 
-	.pagina2 {
+	.caminho {
 		background-image: none;
 		background-color: #c71376;
 		height: auto;
 	}
 
-	.pagina3 {
+	.caminho__texto p {
+		font-size: 1.2rem;
+	}
+
+	.portfolio {
 		background-color: #c71376;
 		height: inherit;
 		text-align: left;
-	}
-
-	.tamanho p {
-		font-size: 1.2rem;
 	}
 
 	article {
@@ -311,29 +311,21 @@ footer {
 		margin-top: 20px;
 	}
 
-	.pagina1 img {
+	.apresentacao img {
 		width: 60%;
 	}
 
-	section {
+	.caminho__conteudo {
 		width: 90%;
 		margin-bottom: 200px;
 	}
 
-	.grid {
+	.caminho__grid {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.conteudo-dois {
-		height: 450px;
-	}
-
-	.conteudo-tres {
-		height: 500px;
-	}
-
-	.allSites{
+	.portfolio__sites{
 		display: grid;
 		grid-template-columns: none;
 	}
