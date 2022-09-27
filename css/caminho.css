@@ -1,17 +1,15 @@
 .caminho {
-	background-image: url(../images/purpleGalaxy.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-color: #262D37;
 	padding: 30px 10px 10px 0;
 	height: 100vh;
 }
 
 .caminho__conteudo {
-	background-color: black;
+	background-color: #348263;
 	width: 30%;
-	height: 370px;
+	height: 290px;
 	padding: 15px;
+	border-radius: 10px;
 }
 
 .caminho__conteudo p,
@@ -30,7 +28,7 @@
 	width: 30%;
 	display: block;
 	margin: auto;
-	border: 2px solid rgba(168, 10, 168, 0.984);
+	border: 2px solid #348263;
 }
 
 .caminho__grid {
@@ -42,7 +40,6 @@
 @media(max-width:890px) {
 	.caminho {
 		background-image: none;
-		background-color: #c71376;
 		height: auto;
 	}
 

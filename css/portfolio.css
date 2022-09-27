@@ -1,5 +1,5 @@
 .portfolio {
-	background-color: #c71376;
+	background-color: #21272F;
 	padding-top: 30px;
 	display: flex;
 	flex-direction: column;
@@ -32,14 +32,14 @@
 	justify-content: center;
 	align-items: center;
 	border-radius: 6px;
-	background-color: #ab54a7;
+	background-color: #4F4792;
 	cursor: pointer;
 	margin-left: 20px;
 	position: relative;
 }
 
 .portfolio__site:hover{
-	background-color: black;
+	background-color: #348263;
 }
 
 .portfolio__site p{
