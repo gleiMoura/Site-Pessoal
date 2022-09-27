@@ -19,7 +19,7 @@
 .apresentacao__texto {
 	background-color: #4F4792;
 	width: 45%;
-	height: 330px;
+	height: auto;
 	padding: 20px;
 	margin-top: 40px;
 	margin-right: 60px;

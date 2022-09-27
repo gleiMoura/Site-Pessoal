@@ -33,13 +33,14 @@
 	align-items: center;
 	border-radius: 6px;
 	background-color: #4F4792;
+	border: 1px solid #4F4792;
 	cursor: pointer;
 	margin-left: 20px;
 	position: relative;
 }
 
 .portfolio__site:hover{
-	background-color: #348263;
+	border: 1px solid white;
 }
 
 .portfolio__site p{
@@ -60,7 +61,7 @@
 
 @media(max-width:890px) {
 	.portfolio {
-		background-color: #c71376;
+		background-color: #21272F;
 		height: inherit;
 		text-align: left;
 	}
