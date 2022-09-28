@@ -16,6 +16,10 @@
 	padding: 10px;
 }
 
+.apresentacao__texto a {
+	color: white
+}
+
 .apresentacao__texto {
 	background-color: #4F4792;
 	width: 45%;
