@@ -16,6 +16,9 @@
 	height: 290px;
 	padding: 15px;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .caminho__conteudo p,
@@ -30,11 +33,16 @@
 }
 
 .caminho__conteudo img {
-	border-radius: 50%;
 	width: 30%;
 	display: block;
 	margin: auto;
 	border: 2px solid #348263;
+}
+
+.caminho__card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media(max-width:890px) {
